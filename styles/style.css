@@ -5,8 +5,8 @@
 }
 
 body {
-  max-width: 1100px;
-  min-height: 3028px;
+ /* max-width: 1100px;
+  min-height: 3028px;*/
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -252,7 +252,7 @@ body {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  margin: 119px 24px 300px;
+  margin: 119px 24px 180px;
   padding: 13px 0px;
 }
 
@@ -271,10 +271,9 @@ body {
 
 .logo_image {
   display: block;
-  width: 148px;
   min-height: 114px;
   max-width: 148px;
-  max-height: 114px;
+  min-height: 114px;
   align-self: center;
 }
 .about_content {
@@ -287,7 +286,7 @@ body {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  margin: 135px 402px 100px 25px;
+  margin: 135px 0px 100px 25px;
   white-space: nowrap;
   justify-self: start;
 }
@@ -297,8 +296,6 @@ body {
   flex-direction: column;
   gap: 24px;
   font-family: "Raleway", sans-serif;
-  /*width: 693px;
-  height: 312px;*/
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -311,10 +308,7 @@ body {
   align-items: start;
   grid-template-columns: 265px 164px 240px;
   column-gap: 163px;
- /*max-width: 100%;
-  height: 180px;*/
   padding: 0px 50px 0px;
-  margin: 0px 0px 82px;
 }
 
 .footer_address {
@@ -350,8 +344,6 @@ body {
 
 .footer_menu_list_item {
   display: flex;
-  /*width: 240px;
-  height: 48px;*/
   gap: 48px;
   max-width: none;
   max-height: none;
@@ -362,7 +354,6 @@ body {
 
 .footer_social-icon {
   display: block;
-  width: 48px;
   min-width: 48px;
   min-height: 48px;
 }
