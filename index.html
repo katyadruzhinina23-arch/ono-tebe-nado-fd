@@ -13,7 +13,7 @@
     <header class="header">
       <nav>
         <ul class="header_links_list">
-          <li><a href="#0">главная</a></li>
+          <li class="header_links_list_item_no_bullit"><a href="#0" class="header_link_active">главная</a></li>
           <li><a href="#0">посмотреть лоты</a></li>
           <li><a href="#0">об аукционе</a></li>
         </ul>
@@ -22,7 +22,7 @@
         <img src="images/logo-black.svg" alt="Логотип черным шрифтом">
       </a>
       <address class="address">
-        <div class="header__links_list_item_no_bullit">
+        <div class="header_address">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           наб. Принсенграхт 263- 265, Амстердам
@@ -40,7 +40,7 @@
       </div>
       <div class="cover_description">
         <p class="cover_description_text">
-          <span>Аукцион вещей, в которые никто не верил</span>
+          Аукцион вещей, в которые никто не верил
         </p>
         <button class="bet_button"><span>Сделать ставку</span></button>
       </div>
@@ -54,9 +54,9 @@
             <a href="#0" class="card_link">
               <article class="article_card lots_card_list_item card_type_film">
                 <div class="overlay"></div>
-                <h2 class="card_title">
+                <h3 class="card_title">
                   Фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="card_text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -70,9 +70,9 @@
             <a href="#0" class="card_link">
               <article class="article_card lots_card_list_item card_type_book">
                 <div class="overlay"></div>
-                <h2 class="card_title">
+                <h4 class="card_title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h4>
                 <p class="card_text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -91,9 +91,9 @@
                 class="article_card lots_card_list_item card_type_picture"
               >
               <div class="overlay"></div>
-                <h2 class="card_title">
+                <h5 class="card_title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h5>
                 <p class="card_text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -104,9 +104,7 @@
             </a>
           </li>
         </ul>
-        <h3 class="link">
-          <a href="#0"><span>посмотреть больше</span></a>
-        </h3>
+        <a href="#0" class="link"><span>посмотреть больше</span></a>
       </section>
 
       <section class="about">
@@ -127,17 +125,15 @@
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <div>
-              <p>
-                Слишком сложные или, наоборот, слишком простые. Опережающие своё
-                время. В пух и прах растерзанные критиками. Непринятые и
-                непонятые. Когда-то они казались просто неудачными. Но, несмотря
-                на критику, кажущуюся простоту или сложность, сейчас без этих
-                лотов невозможно представить современную культуру. Когда в эти
-                вещи не верил никто, продолжали верить их создатели. И сейчас
-                эти лоты стали культовыми.
-              </p>
-            </div>
+            <p>
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих
+              лотов невозможно представить современную культуру. Когда в эти
+              вещи не верил никто, продолжали верить их создатели. И сейчас
+              эти лоты стали культовыми.
+            </p>
           </div>
         </div>
       </section>
@@ -145,21 +141,20 @@
 
     <footer class="footer">
       <address class="address footer_address">
-        <div class="header_links_list_item_no-bullit">
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <br>
           наб. Принсенграхт 263- 265, Амстердам
-        </div>
       </address>
       <nav class="footer_menu">
         <ul class="footer_menu_list">
-          <li><a href="#0">главная</a></li>
+          <li><a href="#0" class="header_link_active">главная</a></li>
           <li><a href="#0">посмотреть лоты</a></li>
           <li><a href="#0">об аукционе</a></li>
         </ul>
       </nav>
 
-      <div class="footer_menu_list_item">
+      <div class="social-list">
         <a href="#0">
           <img
             class="footer_social-icon"
